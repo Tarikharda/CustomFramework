@@ -11,6 +11,7 @@
 		52C66D722B14F1A000B460D5 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C66D672B14F1A000B460D5 /* CustomFramework.framework */; };
 		52C66D772B14F1A000B460D5 /* CustomFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C66D762B14F1A000B460D5 /* CustomFrameworkTests.swift */; };
 		52C66D782B14F1A000B460D5 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C66D6A2B14F1A000B460D5 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C66D822B14F25100B460D5 /* SDK_file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C66D812B14F25100B460D5 /* SDK_file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		52C66D6B2B14F1A000B460D5 /* CustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomFramework.docc; sourceTree = "<group>"; };
 		52C66D712B14F1A000B460D5 /* CustomFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C66D762B14F1A000B460D5 /* CustomFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFrameworkTests.swift; sourceTree = "<group>"; };
+		52C66D812B14F25100B460D5 /* SDK_file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK_file.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				52C66D6A2B14F1A000B460D5 /* CustomFramework.h */,
 				52C66D6B2B14F1A000B460D5 /* CustomFramework.docc */,
+				52C66D812B14F25100B460D5 /* SDK_file.swift */,
 			);
 			path = CustomFramework;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C66D822B14F25100B460D5 /* SDK_file.swift in Sources */,
 				52C66D6C2B14F1A000B460D5 /* CustomFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 		52C66D7F2B14F1A000B460D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -411,6 +416,7 @@
 		52C66D802B14F1A000B460D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
